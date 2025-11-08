@@ -68,11 +68,15 @@ Utilise Render Props pour filtrer une liste avant affichage.
 
 <img width="669" height="321" alt="Capture d&#39;écran 2025-11-08 012206" src="https://github.com/user-attachments/assets/ea22ef9b-b8fa-4c81-9761-0516e86a76a0" />
 
+
 <img width="305" height="164" alt="Capture d&#39;écran 2025-11-08 012649" src="https://github.com/user-attachments/assets/c30ef887-2405-4b31-a2d2-b0bb90ef698f" />
+
 
 <img width="307" height="201" alt="Capture d&#39;écran 2025-11-08 012811" src="https://github.com/user-attachments/assets/e5ea34c7-f89e-4971-96f7-e774bf65fd91" />
 
+
 <img width="335" height="329" alt="Capture d&#39;écran 2025-11-08 013748" src="https://github.com/user-attachments/assets/4c887d2a-c988-48a0-bd34-41d356461922" />
+
 
 <img width="319" height="224" alt="Capture d&#39;écran 2025-11-08 012349" src="https://github.com/user-attachments/assets/558f3ad5-d3e4-4afa-9e48-c32b7152c8d4" />
 
