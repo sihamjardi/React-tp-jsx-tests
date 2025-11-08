@@ -83,4 +83,4 @@ Utilise Render Props pour filtrer une liste avant affichage.
 ---
 
 ## Auteur
-Travail réalisé dans le cadre d'un exercice pédagogique React.
+JARDI Siham
