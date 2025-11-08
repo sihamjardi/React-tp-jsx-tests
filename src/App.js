@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import JSXDemo from './JSXDemo';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import ButtonWithLogging from './ButtonWithLogging';
 
-export default App;
+import DataLoader from './DataLoader';
+import withTimestamp from './withTimestamp';
+import Message from './Message';
+import FilteredList from './FilteredList';
+
+const MessageWithTimestamp = withTimestamp(Message);
+
+ function App() {
+  const names = ['Ana', 'Bob', 'Charlie', 'David'];
+   return (
+     <div>
+       <h1>TP JSX et Composition</h1>
+       <DataLoader
+         render={(data) => (
+           <ul>
+             {data.map((name) => (
+               <li key={name}>{name}</li>
+             ))}
+           </ul>
+         )}
+       />
+       <h1>HOC Timestamp</h1>
+       <MessageWithTimestamp text="Bonjour le monde !" />
+       <h1>Render Props Filtrage</h1>
+             <FilteredList
+               items={names}
+               render={(filtered) => (
+                 <ul>
+                   {filtered.map(name => (
+                     <li key={name}>{name}</li>
+                   ))}
+                 </ul>
+               )}
+             />
+     </div>
+   );
+ }
+
+ export default App;
